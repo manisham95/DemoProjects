@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="card.css" />
+  <link rel="stylesheet" type="text/css" href="nav.css" />
+</head>
+
+<body>
+   <button class="button-css" title="Clickme" id="btn1" onclick="flip()">Assignment1</button><button class="button-css" title="Clickme" id="btn2" onclick="flip2()">Assignment2</button>
+   <section class="Assign1">
+   <header class="header-css"><h1>NAV EXAMPLE </h1></header>
+   <nav class="nav-css">
+        <ul>
+          <li>Home/</li>
+          <li>About/</li>
+          <li>YouTube/</li>
+          <li>Twitter</li>
+        </ul>
+   </nav>
+  </section>
+  <section class="Assign2">
+  <ul class="list">
+    <li>
+      <div class="packet">
+        <div class="packet-img">
+          <img src="twitter.png" class="packet-icon" alt="" />
+        </div>
+        <div class="packet-text">
+          <h1 class="heading">Twitter</h1>
+          <p class="para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At molestias voluptatibus illum
+            inventore nisi molestiae iure ducimus reprehenderit voluptatum architecto sed aut facilis, ex commodi modi
+            dolorem dicta ipsum laboriosam. </p>
+        </div>
+        <div>
+        <button class="packet-button">READ MORE</button>
+      </div>
+      </div>
+    </li>
+    <li>
+      <div class="packet insta">
+        <div class="packet-img">
+          <img src="instagram.png" class="packet-icon insta-icon" alt="" />
+        </div>
+        <div class="packet-text">
+          <h1 class="heading">Instagram</h1>
+          <p class="para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At molestias voluptatibus illum
+            inventore nisi molestiae iure ducimus reprehenderit voluptatum architecto sed aut facilis, ex commodi modi
+            dolorem dicta ipsum laboriosam. </p>
+        </div>
+        <div>
+          <button class="packet-button btn-insta">READ MORE</button>
+        </div>
+      </div>
+    </li>
+    <li>
+    <div class="packet">
+        <div class="packet-img">
+          <img src="youtube.png" class="packet-icon" alt="" />
+        </div>
+        <div class="packet-text">
+          <h1 class="heading">YouTube</h1>
+          <p class="para"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. At molestias voluptatibus illum
+            inventore nisi molestiae iure ducimus reprehenderit voluptatum architecto sed aut facilis, ex commodi modi
+            dolorem dicta ipsum laboriosam. </p>
+        </div>
+        <div>
+          <button class="packet-button">READ MORE</button>
+        </div>
+    </div>
+    </li>
+  </section>
+</body>
+<script type="text/javascript">
+  
+  let Assign1 = document.querySelector(".Assign1");
+  let Assign2 = document.querySelector(".Assign2");
+  let isShow = false;
+  let show =false;
+  function flip(){
+    if(isShow)
+    {
+    Assign1.style.display = 'none';
+    isShow=false;
+    }
+    else
+    {
+      Assign1.style.display = 'block';
+      isShow=true;
+    }
+  }
+  function flip2(){
+    if(show)
+    {
+     Assign2.style.display = 'none';
+     show=false;
+    }
+    else
+    {
+      Assign2.style.display = 'block';
+      show=true;
+    }
+   // Assign1.classlist.toggle("hide",isShow);
+  }
+</script>
+</html>

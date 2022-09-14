@@ -1,0 +1,53 @@
+.button-css{
+        color:navy;
+        background-color:aliceblue;
+        font-size: large;
+        border-radius: 4em;
+        background-color: palegoldenrod;
+        border: 1px solid black; 
+        padding:20px;
+        margin:20px;
+}
+button:hover{
+        color:aliceblue;
+        font-size: large;
+        border-radius: 2em;
+        height:70px;
+        width:150px;
+        border: 1px solid black; 
+        padding:20px;
+        margin:20px;
+        background-color: darkcyan;
+}
+
+.header-css{
+        color:black;
+        font-size:xx-large;
+        font-family:'Times New Roman', Times, serif;
+        text-align:center;
+}
+.nav-css ul{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #333333;
+    color:white;
+    margin-left: 75px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+    display:flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+.nav-css ul li{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    
+}
+.Assign1{
+        display:none;
+}
+.Assign2{
+        display:none;
+}
